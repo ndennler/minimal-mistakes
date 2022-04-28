@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "MUFaSAA Dataset"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Your Name"
@@ -102,15 +102,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  name             : "MuFaSAA Dataset"
+  avatar           : "/assets/images/logo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "<b>M</b>etaphors to <b>U</b>nderstand <b>F</b>unctional <b>a</b>nd <b>S</b>ocial <b>A</b>nticipated <b>A</b>ffordances."
+  location         : #"Somewhere"
   email            :
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+    - label: "Download"
+      icon: "fas fa-fw fa-download"
+      url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
