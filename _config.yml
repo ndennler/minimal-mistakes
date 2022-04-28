@@ -103,14 +103,14 @@ analytics:
 # Site Author
 author:
   name             : "MuFaSAA Dataset"
-  avatar           : "/assets/images/logo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/logo.jpg"
   bio              : "<b>M</b>etaphors to <b>U</b>nderstand <b>F</b>unctional <b>a</b>nd <b>S</b>ocial <b>A</b>nticipated <b>A</b>ffordances."
   location         : #"Somewhere"
-  email            :
+  email            : #"dennler@usc.edu"
   links:
     - label: "Download"
       icon: "fas fa-fw fa-download"
-      url: "mailto:your.name@email.com"
+      url: "/assets/images/logo.jpg"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
