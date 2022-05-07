@@ -757,3 +757,151 @@
   li {
     font-size: 12px;
   }
+
+  .svg-tooltip {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
+      Helvetica, Arial, sans-serif, "Apple   Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol";
+    background: rgba(200, 205, 214, 0.712);
+    border-radius: 0.1rem;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    padding: 0.2rem 0.4rem;
+    position: absolute;
+    text-overflow: ellipsis;
+    white-space: pre;
+    z-index: 300;
+    visibility: hidden;
+  }
+  .svg-tooltip img {
+    height: 300px;
+    width: auto;
+  }
+
+/* CSS */
+.gui-button{
+  width:100%;
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: Inter,sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  height: 40px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 16px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.gui-button:focus {
+  color: #171e29;
+}
+
+.gui-button:hover {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+  
+}
+
+.gui-button:active {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+
+
+@media (min-width: 768px) {
+  .gui-button {
+    min-width: 170px;
+  }
+}
+
+.gui-options {
+  list-style-type:none;
+  margin:0px 0 0 0;
+  padding:0;
+}
+
+.gui-options li {
+  float:left;
+  /* margin:0 5px 0 0; */
+ width:100%;
+ height:40px;
+ position:relative;
+}
+
+.gui-options label{
+ display:block;
+ float:inline-start;
+ position:relative;
+ top:-13px;
+ left:0;
+ right:0;
+ bottom:0;
+
+ /* width:100%; */
+ align-items: center;
+ background-color: #fff;
+ 
+ box-sizing: border-box;
+ color: #000;
+ cursor: pointer;
+ display: inline-flex;
+ fill: #000;
+ font-family: Inter,sans-serif;
+ font-size: 14px;
+ font-weight: 600;
+ height: 40px;
+ justify-content: center;
+ letter-spacing: -.8px;
+ line-height: 16px;
+ min-width: 140px;
+ outline: 0;
+ padding: 0 17px;
+ text-align: center;
+ text-decoration: none;
+ transition: all .3s;
+ user-select: none;
+ -webkit-user-select: none;
+ touch-action: manipulation;
+}
+
+.gui-options input[type="radio"] {
+ opacity:0.011;
+ z-index:100;
+}
+
+.gui-options input[type="radio"]:checked + label {
+ background:rgb(186, 196, 202);
+}
+
+.gui-options label {
+  padding:5px;
+  border: 2px solid #000; 
+  cursor:pointer;
+ z-index:90;
+}
+
+.gui-options label:hover {
+  background:#DDD;
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}

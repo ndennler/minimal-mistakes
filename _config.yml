@@ -20,7 +20,7 @@ title                    : "MUFaSAA Dataset"
 title_separator          : "-"
 subtitle                 : "Metaphors to Understand Functional and Social Anticipated Affordances" # site tagline that appears below site title in masthead
 name                     : "Interaction Lab @ USC"
-description              : "An amazing website."
+description              : "The Metaphors to Understand Functional and Social Anticipated Affordances Dataset (MUFaSAA Dataset) allows users to explore robot designs through their metaphors. We present a dataset of 165 robots, each with three crowd-sourced design metaphors."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
