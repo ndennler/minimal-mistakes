@@ -905,3 +905,7 @@
   color: #06f;
   fill: #06f;
 }
+
+.leftnum, .rightnum {
+  font-size: 20pt;
+}

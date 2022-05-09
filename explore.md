@@ -112,8 +112,15 @@ layout: default
     <div style="display:grid;grid-template-columns: 4fr 3fr 4fr; grid-gap:10px; align-content: space-evenly; padding-top:1%;">
   
   <div style="text-align:center;">
-  <select name="left-robot" id="left-robot" style="width:50%;">
-  </select>
+  
+  <select name="left-robot" id="left-robot" style="width:50%;"></select>
+
+  <div style="display:flex;flex-direction:column;justify-content:space-around;height:100%;flex-wrap:wrap;padding-left:10px;padding-right:10px;text-align:center;list-style:none;">
+  <img id="left-robot-image" style="object-fit:contain;">
+  <img id="left-robot-wordcloud" style="object-fit:contain;">
+  <ul id="left-robot-metaphors" style="padding-left:0;"></ul>
+  </div>
+
   </div>
 
   <div style="text-align:center;">
@@ -121,8 +128,15 @@ layout: default
   </div>
 
   <div style="text-align:center;">
-  <select name="right-robot" id="right-robot" style="width:50%;">
-  </select>
+  <select name="right-robot" id="right-robot" style="width:50%;"></select>
+
+  <div style="display:flex;flex-direction:column;justify-content:space-around;height:100%;flex-wrap:wrap;padding-left:10px;padding-right:10px;text-align:center;list-style:none;">
+  <img id="right-robot-image" style="object-fit:contain;">
+  
+  <img id="right-robot-wordcloud" style="object-fit:contain;">
+  <ul id="right-robot-metaphors" style="padding-left:0; "></ul>
+  </div>
+  
   </div>
 
   </div>
